@@ -164,9 +164,9 @@ def user_stats(df):
         min_birth = int(df['Birth Year'].min())
         max_birth = int(df['Birth Year'].max())
         mode_birth = int(df['Birth Year'].mode()[0])
-        print("\nEarliest birth year for users: ", round(min_birth,0))
-        print("Most recent birth year for users: ", round(max_birth,0))
-        print("Most common birth year for users: ", round(mode_birth,0))
+        print("\nEarliest user birth year: ", round(min_birth,0))
+        print("Most recent user birth year: ", round(max_birth,0))
+        print("Most common user birth year: ", round(mode_birth,0))
     except:
         print("\nNo birth year data available.")
 
