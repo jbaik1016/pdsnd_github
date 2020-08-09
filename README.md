@@ -2,6 +2,7 @@
 2020-08-08
 
 # Bikeshare Analysis (pdsnd_github)
+By: Jenny Baik
 
 # Description
 Python script that provides statistical analysis for bikeshare trip and user data, including: frequent travel times and trip durations; most popular stations and routes; gender and birth year of users; etc.
